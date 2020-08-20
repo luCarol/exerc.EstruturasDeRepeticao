@@ -12,7 +12,7 @@
         <section>
             <div id="dados">
                 <p>Início:
-                    <input type="number" name="inicio" id="txtinicio">
+                    <input type="number" name="inicio" id="txtinicio"> <!--pq txt ? comum para inferir o tipo text (texto) digitado pelo usuário-->
                 </p>
                 <p>Fim:
                     <input type="number" name="fim" id="txtfim">
@@ -20,6 +20,7 @@
                 <p>Passo:
                     <input type="number" name="passo" id="txtpasso">
                 </p>
+                <p><input type="button" value="Calcular" onclick="calcular()"></p>
             </div>
             <div id="resultado">
                 A contagem vai aparecer aqui...
@@ -28,5 +29,6 @@
         <footer>
             <p>&copy; Luana Caroliny - Estudante de ADS</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
